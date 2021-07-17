@@ -1,0 +1,11 @@
+---
+application:
+  name: "slam-aria-mirror-bot-heroku"
+  project: "Bot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-slam-aria-mirror-bot-heroku"
+  routes:
+  - application_name: "slam-aria-mirror-bot-heroku"
+    paths:
+    - "/*"
